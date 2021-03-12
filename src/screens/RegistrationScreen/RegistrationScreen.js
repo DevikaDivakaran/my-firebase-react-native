@@ -42,7 +42,7 @@ const onFooterLinkPress = () => {
 
             <TextInput
             styles={styles.input}
-            placeholder="email"
+            placeholder="Email"
             placeholderColor="white"
             onChangeText={(text) => setEmail(text)}
             value={email}
@@ -54,6 +54,7 @@ const onFooterLinkPress = () => {
             styles={styles.input}
             placeholder="Password"
             placeholderColor="white"
+            secureTextEntry
             onChangeText={(text) => setPassword(text)}
             value={passWord}
             underlineColorAndroid="transparent"
@@ -63,6 +64,7 @@ const onFooterLinkPress = () => {
             <TextInput
             styles={styles.input}
             placeholder="Confirm password"
+            secureTextEntry
             placeholderColor="white"
             onChangeText={(text) => setConfirmPassword(text)}
             value={confirmPassword}
