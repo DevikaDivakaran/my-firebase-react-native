@@ -16,7 +16,7 @@ const onSignUpPress = () => {
 }
 
 const onFooterLinkPress = () => {
-    console.log('clicked on already have an account')
+    console.log('clicked on already have an account, go to login page')
 }
 
 
